@@ -42,17 +42,21 @@ Ejecuta el script:
   Abre el archivo de la canción que quieras grabar y ejecútalo con Python:
 
     python nombre_del_archivo.py
-⚙️ ¿Cómo crear tu propia canción?
-Si quieres añadir una nueva canción, solo tienes que modificar la lista letra en cualquiera de los scripts. Funciona con una estructura de tuplas:
-code
-Python
-letra =[
-    ("Frase de la canción 🚀", velocidad_de_escritura, pausa_despues_de_la_frase),
-    ("Siguiente frase ❤️", 0.05, 1.2)
-]
-Velocidad de escritura: 0.05 es un buen estándar. Bájalo a 0.04 si cantan muy rápido.
-Pausa: Son los segundos de espera antes de imprimir la siguiente línea.
-🤝 Contribuciones
-¡Las contribuciones son bienvenidas! Si sincronizas una canción nueva que quede brutal, haz un fork del repositorio, añade tu script y envía un pull request.
+
+    
+##⚙️ ¿Cómo crear tu propia canción?
+
+  Si quieres añadir una nueva canción, solo tienes que modificar la lista *letra* en cualquiera de los scripts. Funciona con una estructura de tuplas:
+  
+    letra =[
+      ("Frase de la canción 🚀", velocidad_de_escritura, pausa_despues_de_la_frase),
+      ("Siguiente frase ❤️", 0.05, 1.2)
+    ]
+    
+  Velocidad de escritura: 0.05 es un buen estándar. Bájalo a 0.04 si cantan muy rápido.
+  Pausa: Son los segundos de espera antes de imprimir la siguiente línea.
+  
+##🤝 Contribuciones
+  ¡Las contribuciones son bienvenidas! Si sincronizas una canción nueva que quede brutal, haz un fork del repositorio, añade tu script y envía un pull request.
 
     
