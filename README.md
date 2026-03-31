@@ -33,7 +33,7 @@ Actualmente, el repositorio cuenta con scripts sincronizados para los siguientes
 
 1. **Clona el repositorio:**
    ```bash
-   git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+   git clone https://github.com/RiftAxor/Canciones-Python.git
 
 
 Abre tu editor favorito (Recomendado: Visual Studio Code para usar la terminal integrada).
