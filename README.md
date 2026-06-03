@@ -24,6 +24,7 @@ Actualmente, el repositorio cuenta con scripts sincronizados para los siguientes
   * Otras se pierden
   * Eclipse solar
   * La bella y la bestia (ft. Reik)
+  * simplemente pasan
 * **Los Caligaris** - Kilómetros
 * **Eddy Herrera** - Tú eres ajena
 * **Grupo Frontera** - Coqueta
