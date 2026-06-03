@@ -2,7 +2,6 @@ import sys
 import time
 
 def imprimir_con_estilo(frase, velocidad_escritura, pausa_al_final):
-    # Código ANSI para Cyan/Celeste Brillante (Negrita)
     color_cyan = '\033[1;36m'
     reset = '\033[0m'
 
@@ -13,16 +12,14 @@ def imprimir_con_estilo(frase, velocidad_escritura, pausa_al_final):
         sys.stdout.flush()
         time.sleep(velocidad_escritura) # Efecto de máquina de escribir
     
-    # Reseteamos el color y bajamos de línea
     print(reset) 
     
-    # Esperamos a que la canción avance a la siguiente frase
     time.sleep(pausa_al_final)
 
 def cantar_simplemente_pasan():
     print("\n") # Espacio inicial
 
-    # ESTRUCTURA: ("Frase con Emoji", Velocidad de letra, Pausa al final de la frase)
+    # ESTRUCTURA: ("Frase", Velocidad de letra, Pausa al final de la frase)
     
     letra = [
         ("No tengo las palabras de un poeta, pero moría por verla bailar ✍️💃", 0.05, 0.4),
@@ -47,4 +44,4 @@ def cantar_simplemente_pasan():
         imprimir_con_estilo(frase, velocidad, pausa)
 
 if __name__ == "__main__":
-    cantar_simplemente_pasan()
+    cantar_simplemente_pasan()   
