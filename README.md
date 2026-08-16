@@ -13,6 +13,7 @@ Están optimizados para tener una estética limpia (texto blanco brillante sobre
 Actualmente, el repositorio cuenta con scripts sincronizados para los siguientes temazos:
 
 * **Morat**
+  * Al aire
   * Nunca te olvidé
   * Amor con hielo
   * Consejo de amor (ft. Tini)
