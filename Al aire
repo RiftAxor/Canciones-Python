@@ -1,0 +1,49 @@
+import sys
+import time
+
+def imprimir_con_estilo(frase, velocidad_escritura, pausa_al_final):
+    # Código ANSI para Amarillo Brillante (Negrita) - Temática de Radio 📻
+    color_amarillo = '\033[1;33m'
+    reset = '\033[0m'
+
+    sys.stdout.write(color_amarillo) 
+    
+    for caracter in frase:
+        sys.stdout.write(caracter)
+        sys.stdout.flush()
+        time.sleep(velocidad_escritura)
+    
+    # Reseteamos el color y bajamos de línea
+    print(reset) 
+    
+    # Esperamos a que la canción avance
+    time.sleep(pausa_al_final)
+
+def cantar_al_aire():
+    print("\n") # Espacio inicial para que se vea bien en consola
+
+    # ESTRUCTURA: ("Frase con Emoji", Velocidad de letra, Pausa al final)
+    
+    letra = [
+    
+        ("Enamorado 😍", 0.09, 0.4),
+        ("(Y ella) no lo ha notado 🤷‍♂️💔", 0.08, 0.5),
+        ("Quince minutos de fama por uno a su lado ⏳✨", 0.055, 0.95),
+        
+        # Inicia el estribillo (Más rápido)
+        ("Quiero que ella sepa que me enamoré 💘📢", 0.075, 0.5),
+        ("Que esté escuchándome 👂📻", 0.06, 0.3),
+        ("Y le lleguen por la radio mis besos al aire (al aire) 💋💨", 0.08, 0.7),
+        
+        ("Quiero que antes de que suene otra canción ⏭️🎵", 0.065, 0.4),
+        ("O cambie la estación 📻🔄", 0.06, 0.3),
+        ("Ella escuche por la radio mis besos al aire (al aire) 🎙️💋", 0.08, 0.95),
+        
+        ("Y si no puede escucharme (llamaré mañana) ☎️📆", 0.05, 1.5)
+    ]
+
+    for frase, velocidad, pausa in letra:
+        imprimir_con_estilo(frase, velocidad, pausa)
+
+if __name__ == "__main__":
+    cantar_al_aire()
