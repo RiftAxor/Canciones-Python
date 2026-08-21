@@ -4,7 +4,7 @@
 
 Están optimizados para tener una estética limpia (texto blanco brillante sobre fondo negro, sin espacios extra y con emojis), ideal para grabar la pantalla y crear videos para **TikTok, Instagram Reels o YouTube Shorts**.
 
-## 🚀 Características
+## Características
 - **Efecto de escritura:** Letra por letra simulando un hacker/programador.
 - **Sincronización:** Tiempos de pausa y velocidad ajustados para encajar con los fragmentos de las canciones reales.
 - **Estética:** Uso de códigos ANSI para resaltar el texto (Blanco Brillante) sobre el fondo oscuro de la terminal.
